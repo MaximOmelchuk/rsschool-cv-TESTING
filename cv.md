@@ -16,3 +16,35 @@ advisor with several IT-companies. In the near future I want to change
 my profession and become a frontend developer, because codding is really  
 interesting for me and because it is impossible to be a lawyer in country  
 without law.  
+## Skills  
+* HTML  
+* CSS  
+* JavaScript  
+* Git  
+## Code example  
+Task: [Range Extraction.](https://www.codewars.com/kata/51ba717bb08c1cd60f00002f/javascript)  
+Solution:
+
+```
+function solution(list){
+ 
+  list=list.map((x,i)=>{
+    if (x+1!==list[i+1]) {
+      return x;
+    } else {
+     let last=list.slice(i)
+                  .findIndex((y,j)=>y+1!==list[j+i+1]);
+     if (last>=2) {
+       let tmp=x+'-'+list[last+i];
+       for (let e=i+1; e<=last+i; e++) {
+         list[e]='';
+       }
+       return tmp;
+     } else return x;
+    }
+  })
+  return list.join(' ').trim().split(/ +/).join();
+}
+```  
+## Experience in development  
+in progress...  
