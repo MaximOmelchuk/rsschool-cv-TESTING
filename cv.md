@@ -48,3 +48,16 @@ function solution(list){
 ```  
 ## Experience in development  
 in progress...  
+## Education  
+* University: Belarusian State University, Law Faculty
+* Courses:
+    * [learn.javascript.ru](https://learn.javascript.ru/)
+    * [CS50](https://www.youtube.com/channel/UCcabW7890RKJzL968QWEykA) 
+    * [codewars.com](https://www.codewars.com/)  
+    * [The Rolling Scopes School](https://rs.school/) (in progress)  
+
+## English  
+B2, EF SET certificate (60 points).  
+I got some speaking practice while traveling, constantly  
+improve reading and listening skills (technical docs, podcasts,  
+films in original voice acting, etc.)
